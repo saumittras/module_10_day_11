@@ -1,0 +1,58 @@
+/* Work sense font added  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+
+/* Dark 02 */
+.text-gray {
+  color: #424242;
+}
+/* Dark 03 */
+.text-light-gray {
+  color: #727272;
+}
+
+/* primary Background color */
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+
+/* navbar related style */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-item {
+  list-style: none;
+  margin: 30px;
+}
+.nav-link a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
